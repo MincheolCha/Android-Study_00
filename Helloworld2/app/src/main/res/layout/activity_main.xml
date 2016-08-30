@@ -9,10 +9,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.helloworld.MainActivity">
 
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="어떤 것에 관심이 있으세요?"
+        android:textColor="#A5DE9F"
+        android:textSize="20dp"/>
+
+
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
         android:text="첫번째 버튼"/>
 
     <Button
